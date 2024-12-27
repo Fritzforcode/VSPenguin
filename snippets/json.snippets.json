@@ -1,0 +1,90 @@
+{
+    "New Block": {
+        "prefix": "b",
+        "body": [
+            "{",
+            "    \"opcode\": \"$1\"",
+            "}"
+        ]
+    },
+    "New Block + Inputs": {
+        "prefix": "bi",
+        "body": [
+            "{",
+            "    \"opcode\": \"$1\",",
+            "    \"inputs\": {",
+            "        $2",
+            "    }",
+            "}"
+        ]
+    },
+    "New Block + Options": {
+        "prefix": "bo",
+        "body": [
+            "{",
+            "    \"opcode\": \"$1\",",
+            "    \"options\": {",
+            "        $2",
+            "    }",
+            "}"
+        ]
+    },
+    "New Block + Inputs + Options": {
+        "prefix": "bio",
+        "body": [
+            "{",
+            "    \"opcode\": \"$1\",",
+            "    \"inputs\": {",
+            "        $2",
+            "    },",
+            "    \"options\": {",
+            "        $3",
+            "    }",
+            "}"
+        ]
+    },
+    "New Input: Block": {
+        "prefix": "i#b",
+        "body": [
+            "{\"block\": {",
+            "    \"opcode\": \"$1\"",
+            "}}"
+        ]
+    },
+    "New Input: Block + Inputs": {
+        "prefix": "i#bi",
+        "body": [
+            "{\"block\": {",
+            "    \"opcode\": \"$1\",",
+            "    \"inputs\": {",
+            "        $2",
+            "    }",
+            "}}"
+        ]
+    },
+    "New Input: Block + Inputs + Options": {
+        "prefix": "i#bio",
+        "body": [
+            "{\"block\": {",
+            "    \"opcode\": \"$1\",",
+            "    \"inputs\": {",
+            "        $2",
+            "    },",
+            "    \"options\": {",
+            "        $3",
+            "    }",
+            "}}"
+        ]
+    },
+    "New Input: Block + Options": {
+        "prefix": "i#bo",
+        "body": [
+            "{\"block\": {",
+            "    \"opcode\": \"$1\",",
+            "    \"options\": {",
+            "        $2",
+            "    }",
+            "}}"
+        ]
+    }
+}
